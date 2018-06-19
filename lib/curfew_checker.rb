@@ -1,5 +1,10 @@
 def simple_curfew_checker(time)
-  # code goes here
+if Time.now.hour < 11
+puts "You made it on time"
+elsif Time.now.hour >11
+puts " your late"
+else 
+  
 end
 
 def curfew_checker(time)
